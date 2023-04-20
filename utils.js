@@ -46,7 +46,7 @@ function createServer(){
     //     console.log('we are ready for incomming request')
     // })
 
-    app.listen(5500, '127.0.0.1');
+    app.listen(5500, '0.0.0.0');
 }
 
 function writeFile(name,content){
